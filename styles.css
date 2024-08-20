@@ -5,6 +5,10 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+main {
+  margin: 0 3rem;
+}
+
 .cabecalho {
   display: flex;
   align-items: center;
@@ -34,4 +38,32 @@ body {
 .link-btn:hover {
   background-color: #606c38;
   color: #fff;
+}
+
+.categorias-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 2rem 0 0;
+}
+
+.categoria-img {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  background-color: #f3efef;
+  padding: 0.5rem;
+}
+
+.categoria-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: #5f5b5b;
+}
+
+.categoria-link:hover .categoria-img {
+  height: 85px;
+  width: 85px;
+  background-color: #fff;
 }
