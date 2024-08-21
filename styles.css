@@ -190,7 +190,7 @@ main {
   width: 100%;
   padding: 0.5rem 0;
   border-radius: 6px;
-  margin-bottom: 2rem;
+  margin: 2rem 0;
 }
 
 .destaque-login-titulo {
@@ -211,4 +211,46 @@ main {
   background-color: #606c38;
   border-radius: 6px;
   padding: 1rem;
+}
+
+.cidades-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cidades-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 220px;
+  height: 320px;
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.cidade-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  cursor: pointer;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+.cidade-img:hover {
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.05);
+}
+
+.cidade-name {
+  position: absolute;
+  bottom: 0.5rem;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px black;
 }
