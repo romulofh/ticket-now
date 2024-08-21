@@ -6,7 +6,7 @@ body {
 }
 
 main {
-  margin: 0 3rem;
+  margin: 0 5rem;
 }
 
 .cabecalho {
@@ -66,4 +66,54 @@ main {
   height: 85px;
   width: 85px;
   background-color: #fff;
+}
+
+.mais-vistos-cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+.card-evento {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  justify-content: flex-start;
+  max-width: 280px;
+}
+
+.card-evento:hover {
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
+  border-radius: 6px;
+}
+
+.card-evento-img {
+  height: 180px;
+  width: 280px;
+  border-radius: 6px;
+}
+
+.card-evento-data {
+  color: #606c38;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  font-weight: 600;
+  margin-left: 1rem;
+}
+
+.card-evento-name {
+  color: black;
+  text-transform: uppercase;
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin-top: 0;
+  margin-left: 1rem;
+}
+
+.card-evento-local {
+  color: #5f5b5b;
+  font-size: 0.75rem;
+  font-weight: 400;
+  margin-top: 0;
+  margin-left: 1rem;
 }
