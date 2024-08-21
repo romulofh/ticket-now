@@ -64,7 +64,7 @@ main {
 
 .categoria-link:hover .categoria-img {
   height: 85px;
-  width: 85px;
+  width: 85px; 
   background-color: #fff;
 }
 
@@ -253,4 +253,95 @@ main {
   font-size: 1.5rem;
   font-weight: bold;
   text-shadow: 1px 1px 3px black;
+}
+
+.parceiros {
+  background-color: #f3efef;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.parceiros-cabecalho {
+  margin: 2rem 0;
+}
+
+.parceiros-cabecalho-letterbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  color: #fff;
+  background-color: black;
+  width: 50%;
+  border-radius: 10px;
+}
+
+.parceiros-cabecalho-letterbox > img {
+  width: 60%;
+  height: auto;
+}
+
+.parceiros-cabecalho-letterbox > h3 {
+  font-size: 0.8rem;
+  font-weight: 200;
+}
+
+.parceiros-cabecalho-titulo {
+  color: #606c38;
+  font-weight: 400;
+}
+
+.parceiros-box {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  max-width: 90%;
+  background-color: #606c38;
+  margin: 0 2rem 2rem;
+  border-radius: 10px;
+}
+
+.parceiros-box-conteudo {
+  margin: 2rem 2rem;
+}
+
+.parceiros-box-titulo {
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+.parceiros-box-paragrafo {
+  color: #fff;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+.parceiros-box-btn {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  margin-right: 2rem;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.parceiros-box-btn:hover {
+  opacity: 0.8;
+}
+
+.laranja {
+  background-color: #ff7b2f;
+}
+
+.vazado {
+  background-color: #606c38;
+  border: 1px solid #fff;
+}
+
+.parceiros-box-img {
+  margin: 2rem;
 }
