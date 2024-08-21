@@ -72,6 +72,7 @@ main {
   display: flex;
   justify-content: space-between;
   gap: 3rem;
+  max-width: 100%;
 }
 
 .card-evento {
@@ -344,4 +345,52 @@ main {
 
 .parceiros-box-img {
   margin: 2rem;
+}
+
+.rodape {
+  background-color: #283618;
+  padding: 2rem 12rem;
+  margin-top: 2rem;
+}
+
+.rodape-cabecalho {
+  border-bottom: 1px solid #fff;
+}
+
+.rodape-conteudo {
+  display: flex;
+  justify-content: space-around;
+}
+
+.rodape-conteudo-coluna{
+  display: flex;
+  flex-direction: column;
+}
+
+.rodape-links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.rodape-titulo {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  margin: 1.5rem 0;
+}
+
+.rodape-link {
+  text-decoration: none;
+  color: #e2d9d9;
+  font-size: 0.75rem;
+  font-weight: 100;
+}
+
+.rodape-copyright {
+  color: #e2d9d9;
+  font-size: 0.75rem;
+  font-weight: 100;
+  text-align: center;
+  margin-top: 3rem;
 }
