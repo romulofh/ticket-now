@@ -394,3 +394,33 @@ main {
   text-align: center;
   margin-top: 3rem;
 }
+
+.pesquisa-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+}
+
+.pesquisa-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  border: 1px solid #a09696;
+  border-radius: 0.75rem;
+  padding: 0.5rem;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+  width: 70%;
+}
+
+.pesquisa-wrapper input {
+ font-size: 1rem;
+ outline: none;
+ border: none;
+ width: 90%;
+}
+
+.pesquisa-wrapper i {
+  color: #606c38;
+  cursor: pointer;
+}
