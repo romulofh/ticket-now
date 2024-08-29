@@ -41,6 +41,10 @@ main {
   color: #fff;
 }
 
+.categorias-destaque {
+  margin-top: 3rem;
+}
+
 .categorias-container {
   display: flex;
   justify-content: space-around;
@@ -67,6 +71,10 @@ main {
   height: 85px;
   width: 85px; 
   background-color: #fff;
+}
+
+.mais-vistos {
+  margin-top: 4rem;
 }
 
 .mais-vistos-cards {
@@ -120,6 +128,10 @@ main {
   margin-left: 1rem;
 }
 
+.destaque {
+  margin-top: 3rem;
+}
+
 .destaque-evento {
   display: flex;
   gap: 2rem;
@@ -163,6 +175,10 @@ main {
   margin-top: 0;
 }
 
+.finaldesemana {
+  margin-top: 3rem;
+}
+
 .destaque-link {
   text-decoration: none;
   color: #606c38;
@@ -192,7 +208,7 @@ main {
   width: 100%;
   padding: 0.5rem 0;
   border-radius: 6px;
-  margin: 2rem 0;
+  margin: 2rem 0 0;
 }
 
 .destaque-login-titulo {
@@ -213,6 +229,10 @@ main {
   background-color: #606c38;
   border-radius: 6px;
   padding: 1rem;
+}
+
+.cidades {
+  margin-top: 3rem;
 }
 
 .cidades-container {
@@ -263,6 +283,7 @@ main {
   flex-direction: column;
   align-items: center;
   border-radius: 8px;
+  margin-top: 3rem;
 }
 
 .parceiros-cabecalho {
@@ -351,7 +372,7 @@ main {
 .rodape {
   background-color: #283618;
   padding: 2rem 12rem;
-  margin-top: 2rem;
+  margin-top: 4rem;
 }
 
 .rodape-cabecalho {
@@ -361,6 +382,8 @@ main {
 .rodape-conteudo {
   display: flex;
   justify-content: space-around;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 2rem;
 }
 
 .rodape-conteudo-coluna{
@@ -386,6 +409,25 @@ main {
   color: #e2d9d9;
   font-size: 0.75rem;
   font-weight: 100;
+}
+.rodape-social-media {
+  display: flex;
+  margin-top: 2rem;
+  justify-content: space-evenly;
+  padding: 0 12rem;
+}
+
+.rodape-social-media-link {
+  text-decoration: none;
+  color: #e2d9d9;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.rodape-img {
+  width: 24px;
+  height: 24px;
 }
 
 .rodape-copyright {
